@@ -29,3 +29,32 @@ header nav ul li a {
 main {
   padding: 20px;
 }
+
+.home-content {
+  padding: 40px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.overview-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.overview-section > div {
+  width: 30%;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+.call-to-action button {
+  background-color: #ffcc00;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  color: #003366;
+}
